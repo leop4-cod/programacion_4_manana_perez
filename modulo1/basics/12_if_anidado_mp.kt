@@ -15,7 +15,7 @@ fun main() {
         } else if (monto > 5000) {
             println("Aplica plan premium con beneficios adicionales")
         } else {
-            println("Aplica plan estándar")
+            println("Aplica plan estándar") 
         }
     } else {
         println("Cliente sin plan funerario")
