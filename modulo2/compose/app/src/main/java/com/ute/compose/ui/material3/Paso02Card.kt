@@ -13,8 +13,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.tuapp.compose.model.Contacto
-import com.tuapp.compose.model.contactosDeMuestra
+import com.ute.compose.model.Contacto
+import com.ute.compose.model.contactosDeMuestra
 
 // ── Composable reutilizable — se usará desde el Paso 3 en adelante ───────────
 @Composable
@@ -153,5 +153,5 @@ fun Paso02CardScreen() {
 @Preview(showBackground = true)
 @Composable
 fun Paso02_Preview() {
-    MaterialTheme { Paso02_CardScreen() }
+    MaterialTheme { Paso02CardScreen() }
 }
