@@ -13,12 +13,6 @@ void imprimirSeparador(String titulo) {
   print('─── $titulo ───');
 }
 
-
-void main() {
-  print(sumar(5, 3));          // 8
-  print(multiplicar(4, 6));    // 24
-  imprimirSeparador('Inicio'); // ─── Inicio ───
-}
 // Dart puede inferir el tipo de retorno, pero es buena práctica declararlo
 // explícitamente en funciones públicas para mejorar la legibilidad.
 
@@ -28,9 +22,6 @@ String formatearPrecio(double precio) => '\$${precio.toStringAsFixed(2)}';
 // Sin tipo — Dart infiere que retorna String
 formatearPrecioSinTipo(double precio) => '\$${precio.toStringAsFixed(2)}';
 
-void main() {
-  print(formatearPrecio(1299.9));  // $1299.90
-}
 // El tercer parámetro es opcional — puede omitirse al llamar
 String construirUrl(String host, String ruta, [int? puerto]) {
   if (puerto != null) {
@@ -45,6 +36,11 @@ String construirUrlV2(String host, String ruta, [int puerto = 443]) {
 }
 
 void main() {
+  print(sumar(5, 3));          // 8
+  print(multiplicar(4, 6));    // 24
+  imprimirSeparador('Inicio'); // ─── Inicio ───
+  print(formatearPrecio(1299.9));  // $1299.90
+  print(formatearPrecioSinTipo(1299.9));  // $1299.90
   print(construirUrl('api.ejemplo.com', '/usuarios'));          // https://api.ejemplo.com/usuarios
   print(construirUrl('api.ejemplo.com', '/usuarios', 8080));   // https://api.ejemplo.com:8080/usuarios
   print(construirUrlV2('api.ejemplo.com', '/productos'));       // https://api.ejemplo.com:443/productos
