@@ -34,4 +34,3 @@ Mayor:  ${edad >= 18 ? 'Sí' : 'No'}
   print('abc'.padLeft(5, '0'));             // 00abc
 }
 
-no amor tranquila chi 
