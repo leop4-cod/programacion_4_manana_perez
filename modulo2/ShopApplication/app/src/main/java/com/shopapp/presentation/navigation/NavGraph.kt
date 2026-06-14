@@ -22,6 +22,7 @@ import com.shopapp.presentation.ui.auth.LoginScreen
 import com.shopapp.presentation.ui.auth.RegisterScreen
 import com.shopapp.presentation.ui.auth.ForgotPasswordScreen
 import com.shopapp.presentation.ui.auth.ResetPasswordConfirmScreen
+import com.shopapp.presentation.ui.admin.users.SendNotificationScreen
 import com.shopapp.presentation.ui.client.orders.OrderDetailScreen
 import com.shopapp.presentation.ui.client.orders.OrdersScreen
 import com.shopapp.presentation.ui.client.profile.ProfileScreen
@@ -226,8 +227,22 @@ fun NavGraph(
                                 popUpTo(0) { inclusive = true }
                             }
                         },
+                        onSendNotification = { navController.navigate(Screen.SendNotification.route) },
                     )
                 }
+            }
+
+            // ── SEND NOTIFICATION (STAFF) ──────────
+            composable(Screen.SendNotification.route) {
+                if (!isStaff) {
+                    LaunchedEffect(Unit) {
+                        navController.popBackStack()
+                    }
+                    return@composable
+                }
+                SendNotificationScreen(
+                    onBack = { navController.popBackStack() },
+                )
             }
 
             // ── ADMIN DASHBOARD ────────────────────
