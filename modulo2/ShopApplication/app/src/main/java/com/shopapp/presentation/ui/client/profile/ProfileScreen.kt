@@ -97,8 +97,7 @@ fun ProfileScreen(
 
                     Spacer(Modifier.height(4.dp))
 
-                    if (profile?.isStaff == true) {
-                        SuggestionChip(onClick = {}, label = { Text("Staff") })
+                        SuggestionChip(onClick = {}, label = { Text(if (profile?.isStaff == true) "Staff" else "Usuario") })
                         
                         Spacer(Modifier.height(16.dp))
                         HorizontalDivider()
@@ -125,7 +124,6 @@ fun ProfileScreen(
                             },
                             modifier = Modifier.clickable(onClick = onSendNotification),
                         )
-                    }
 
                     Spacer(Modifier.height(24.dp))
                     HorizontalDivider()

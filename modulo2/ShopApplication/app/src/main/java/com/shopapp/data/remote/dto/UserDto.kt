@@ -13,8 +13,8 @@ data class UserDto(
     @SerializedName("last_name")   val lastName:   String,
     @SerializedName("is_staff")    val isStaff:    Boolean,
     @SerializedName("is_active")   val isActive:   Boolean,
-    @SerializedName("date_joined") val dateJoined: String,
-    @SerializedName("num_orders")  val numOrders:  Int,
+    @SerializedName("date_joined") val dateJoined: String? = null,
+    @SerializedName("num_orders")  val numOrders:  Int = 0,
     @SerializedName("avatar_url")
     val avatarUrl:  String? = null,
 )
