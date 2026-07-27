@@ -76,11 +76,11 @@ class CatalogoBasicos extends StatelessWidget {
           Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Icon(Icons.check_circle, size: 80, color: Theme.of(context).colorScheme.primary),
-              const Icon(Icons.cancel, size: 80, color: Colors.red),
-              const Icon(Icons.warning_amber, size: 80, color: Colors.orange),
-              const Icon(Icons.dns, size: 14, color: Colors.indigo),
-              const Icon(Icons.wifi_off, size: 14, color: Colors.grey),
+              Icon(Icons.church, size: 80, color: Theme.of(context).colorScheme.primary),
+              const Icon(Icons.directions_car, size: 80, color: Colors.blueGrey),
+              const Icon(Icons.local_florist, size: 80, color: Colors.purple),
+              const Icon(Icons.person, size: 14, color: Colors.indigo),
+              const Icon(Icons.book, size: 14, color: Colors.grey),
               
 
               
@@ -152,7 +152,7 @@ class CatalogoBasicos extends StatelessWidget {
                // ocupa todo el ancho
             ),
             child: const Text(
-              'Acción crítica',
+              'Coordinar Sepelio',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
@@ -169,7 +169,7 @@ class CatalogoBasicos extends StatelessWidget {
             color: Colors.red.shade50,
             child: ListTile(
               contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-              leading: const Icon(Icons.dns, color: Colors.indigo),
+              leading: const Icon(Icons.local_fire_department, color: Colors.orange),
               title: const Text('Horno Crematorio'),
               subtitle: const Text('En Funeraria La Paz acompañamos a las familias en sus momentos más difíciles, brindando un servicio cálido y respetuoso.'),
               trailing: const Icon(Icons.circle, color: Colors.green, size: 12),
@@ -181,8 +181,8 @@ class CatalogoBasicos extends StatelessWidget {
             elevation: 12,
             child: ListTile(
               leading: CircleAvatar(
-                backgroundColor: Colors.red.shade100,
-                child: const Icon(Icons.cancel, color: Colors.red, size: 20),
+                backgroundColor: Colors.blueGrey.shade100,
+                child: const Icon(Icons.directions_car, color: Colors.blueGrey, size: 20),
               ),
               title: const Text('carroza-fúnebre-04'),
               subtitle: const Text('fuera de ruta · GPS inactivo'),
@@ -194,7 +194,7 @@ class CatalogoBasicos extends StatelessWidget {
             child: SwitchListTile(
               value: false,
               onChanged: (_) {},
-              title: const Text('Modo mantenimiento'),
+              title: const Text('Servicio de Velación Privado'),
             ),
           ),
           const Divider(height: 32),
