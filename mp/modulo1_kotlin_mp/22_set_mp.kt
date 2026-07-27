@@ -1,0 +1,28 @@
+fun main() {
+  println("Set Inmutable - Vehiculos en Estación")
+    val registros = setOf(101, 102, 103, 104, 108, 104, 101, 103)
+    println("Códigos de vehiculos únicas: ${registros}")
+  
+  println("Operaciones de conjuntos - Control de Servicios")
+    val unidadesRutaA = setOf(2, 4, 6, 8, 10)
+    val unidadesRutaB = setOf(3, 6, 9, 12)
+    println("Vehiculos Servicio A: ${unidadesRutaA}")
+    println("Vehiculos Servicio B: ${unidadesRutaB}")
+    println("Total de vehiculos operativas (unión): ${unidadesRutaA union unidadesRutaB}")
+    println("Vehiculos compartiendo tramo (intersección): ${unidadesRutaA intersect unidadesRutaB}")
+    println("Vehiculos exclusivas Servicio A (sustracción): ${unidadesRutaA subtract unidadesRutaB}")
+    println("Vehiculos Servicio A: ${unidadesRutaA}")
+    println("Vehiculos Servicio B: ${unidadesRutaB}")
+    
+    println("Set mutable - Terminales Activas")
+    val terminales = mutableSetOf("Quitumbe", "Carcelén", "Ofelia")
+    println(terminales)
+    terminales.add("Quitumbe")
+     println(terminales)
+    terminales.add("Playón")
+     println(terminales)
+    terminales.remove("Carcelén")
+     println(terminales)
+    println("Verificar si terminal existe: ${"Quitumbe" in terminales}")
+    println("Verificar si terminal existe: ${"Carcelén" in terminales}")
+}
