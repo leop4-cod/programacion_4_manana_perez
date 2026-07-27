@@ -30,20 +30,20 @@ class ScaffoldConNav extends StatelessWidget {
         },
         destinations: const [
           NavigationDestination(
-            icon: Icon(Icons.dns_outlined), selectedIcon: Icon(Icons.dns),
-            label: 'Servidores',
+            icon: Icon(Icons.church_outlined), selectedIcon: Icon(Icons.church),
+            label: 'Servicios',
           ),
           NavigationDestination(
-            icon: Icon(Icons.bar_chart_outlined), selectedIcon: Icon(Icons.bar_chart),
-            label: 'Métricas',
+            icon: Icon(Icons.analytics_outlined), selectedIcon: Icon(Icons.analytics),
+            label: 'Estadísticas',
           ),
           NavigationDestination(
             icon: Icon(Icons.settings_outlined), selectedIcon: Icon(Icons.settings),
-            label: 'Ajustes',
+            label: 'Configuración',
           ),
            NavigationDestination(
-            icon: Icon(Icons.dashboard_outlined), selectedIcon: Icon(Icons.dashboard),
-            label: 'Dashboard',
+            icon: Icon(Icons.home_work_outlined), selectedIcon: Icon(Icons.home_work),
+            label: 'Panel Principal',
           ),
         ],  
       ),

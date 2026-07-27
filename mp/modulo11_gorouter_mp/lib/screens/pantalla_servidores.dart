@@ -12,7 +12,7 @@ class PantallaServidores extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title:           const Text('Servidores'),
+        title:           const Text('Servicios'),
         backgroundColor: cs.primaryContainer,
         foregroundColor: cs.onPrimaryContainer,
         leading: IconButton(
@@ -29,7 +29,7 @@ class PantallaServidores extends StatelessWidget {
       body: ListView.builder(
         itemCount:   servidores.length,
         itemBuilder: (context, i) => ListTile(
-          leading: const Icon(Icons.dns),
+          leading: const Icon(Icons.church),
           title:   Text(servidores[i].nombre),
           onTap: () {
             context.push('/servidores/${servidores[i].id}', extra: servidores[i]);

@@ -9,9 +9,9 @@ class PantallaDashboard extends StatelessWidget {
     body: const Center(child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Icon(Icons.dashboard, size: 56),
+        Icon(Icons.home_work, size: 56),
         SizedBox(height: 8),
-        Text('Dashboard', style: TextStyle(fontSize: 18)),
+        Text('Panel Principal', style: TextStyle(fontSize: 18)),
       ],
     )),
   );

@@ -70,7 +70,7 @@ class _Paso1State extends State<_Paso1> {
               decoration:      const InputDecoration(
                 labelText:  'Hostname',
                 hintText:   'prod-web-01',
-                prefixIcon: Icon(Icons.dns),
+                prefixIcon: Icon(Icons.church),
                 border:     OutlineInputBorder(),
               ),
               textInputAction: TextInputAction.next,
@@ -82,8 +82,8 @@ class _Paso1State extends State<_Paso1> {
               focusNode:       _focusIp,
               decoration:      const InputDecoration(
                 labelText:  'Dirección IP',
-                hintText:   '192.168.1.100',
-                prefixIcon: Icon(Icons.router),
+                hintText:   'TR-402',
+                prefixIcon: Icon(Icons.directions_car),
                 border:     OutlineInputBorder(),
               ),
               keyboardType:    TextInputType.number,
@@ -117,7 +117,7 @@ class _Paso1State extends State<_Paso1> {
                   ),
                 );
               },
-              icon:  const Icon(Icons.terminal),
+              icon:  const Icon(Icons.document_scanner),
               label: const Text('Conectar'),
             ),
             const SizedBox(height: 8),
@@ -175,7 +175,7 @@ class _Paso3 extends StatefulWidget {
 }
 
 class _Paso3State extends State<_Paso3> {
-  // Nota: Si tus clases heredan de un modelo base común (ej. 'Servidor'), 
+  // Nota: Si tus clases heredan de un modelo base común (ej. 'Servicio Fúnebre'), 
   // cambia el tipo de la lista de 'dynamic' al nombre de la clase padre.
   final List<dynamic> _servidores = [
     ServidorSSH(id:'1', nombre:'prod-web-01',  ip:'10.0.2.10',   puerto:22,   usuario:'deploy',   so:'Ubuntu 24.04', ssl:true,  favorito:true),
@@ -201,7 +201,7 @@ class _Paso3State extends State<_Paso3> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.dns_outlined, size: 56, color: cs.onSurfaceVariant),
+                  Icon(Icons.church_outlined, size: 56, color: cs.onSurfaceVariant),
                   const SizedBox(height: 12),
                   Text('Sin servidores', style: TextStyle(color: cs.onSurfaceVariant)),
                 ],

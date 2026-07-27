@@ -26,14 +26,14 @@ class PantallaDashboard extends ConsumerWidget {
             ref.read(indiceTabProvider.notifier).state = i,
         destinations: const [
           NavigationDestination(
-            icon:         Icon(Icons.dns_outlined),
-            selectedIcon: Icon(Icons.dns),
-            label:        'Servidores',
+            icon:         Icon(Icons.church_outlined),
+            selectedIcon: Icon(Icons.church),
+            label:        'Servicios',
           ),
           NavigationDestination(
-            icon:         Icon(Icons.bar_chart_outlined),
-            selectedIcon: Icon(Icons.bar_chart),
-            label:        'Métricas',
+            icon:         Icon(Icons.analytics_outlined),
+            selectedIcon: Icon(Icons.analytics),
+            label:        'Estadísticas',
           ),
         ],
       ),

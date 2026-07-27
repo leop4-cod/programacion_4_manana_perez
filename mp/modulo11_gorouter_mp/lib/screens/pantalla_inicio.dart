@@ -19,7 +19,7 @@ class PantallaInicio extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.terminal, size: 64, color: cs.primary),
+            Icon(Icons.document_scanner, size: 64, color: cs.primary),
             const SizedBox(height: 16),
             const Text('Dashboard de Monitoreo',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
@@ -30,7 +30,7 @@ class PantallaInicio extends StatelessWidget {
             FilledButton.icon(
               // context.go() — navega SIN apilar (no hay botón "atrás")
               onPressed: () => context.go('/servidores'),
-              icon:  const Icon(Icons.dns),
+              icon:  const Icon(Icons.church),
               label: const Text('Ver servidores'),
             ),
           ],

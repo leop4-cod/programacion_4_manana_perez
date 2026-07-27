@@ -35,7 +35,7 @@ class PantallaPaso1User extends StatelessWidget {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.wifi_off, size: 48, color: Colors.red),
+                  const Icon(Icons.check_circle_off, size: 48, color: Colors.red),
                   const SizedBox(height: 8),
                   Text('Error: ${snap.error}',
                       style: const TextStyle(color: Colors.red)),

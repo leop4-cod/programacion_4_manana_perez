@@ -31,7 +31,7 @@ class PantallaServidores extends ConsumerWidget {
                     backgroundColor: s.ssl
                         ? Colors.green.shade50
                         : Colors.grey.shade100,
-                    child: Icon(Icons.dns,
+                    child: Icon(Icons.church,
                         color: s.ssl ? Colors.green : Colors.grey),
                   ),
                   title:    Text(s.nombre,

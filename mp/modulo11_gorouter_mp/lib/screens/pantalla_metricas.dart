@@ -9,7 +9,7 @@ class PantallaMetricas extends StatelessWidget {
     body: const Center(child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Icon(Icons.bar_chart, size: 56),
+        Icon(Icons.analytics, size: 56),
         SizedBox(height: 8),
         Text('Métricas de servidores', style: TextStyle(fontSize: 18)),
       ],

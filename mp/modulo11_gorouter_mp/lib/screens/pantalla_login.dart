@@ -36,7 +36,7 @@ class _PantallaLoginState extends ConsumerState<PantallaLogin> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(Icons.terminal, size: 64, color: cs.primary),
+                Icon(Icons.document_scanner, size: 64, color: cs.primary),
                 const SizedBox(height: 16),
                 const Text('Monitor SSH',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
@@ -45,7 +45,7 @@ class _PantallaLoginState extends ConsumerState<PantallaLogin> {
                 TextFormField(
                   controller: _ctrlUser,
                   decoration: const InputDecoration(
-                    labelText:  'Usuario',
+                    labelText:  'Familiar Responsable',
                     prefixIcon: Icon(Icons.person_outline),
                     border:     OutlineInputBorder(),
                   ),

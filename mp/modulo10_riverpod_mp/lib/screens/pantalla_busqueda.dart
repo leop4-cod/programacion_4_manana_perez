@@ -39,7 +39,7 @@ class PantallaBusqueda extends ConsumerWidget {
               : ListView.builder(
                   itemCount:   servidores.length,
                   itemBuilder: (_, i) => ListTile(
-                    leading: const Icon(Icons.dns),
+                    leading: const Icon(Icons.church),
                     title:    Text(servidores[i].nombre),
                     subtitle: Text(servidores[i].ip),
                   ),

@@ -70,7 +70,7 @@ class PantallaPaso3 extends StatelessWidget {
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        p.activo ? 'Activo' : 'Inactivo',
+                        p.activo ? 'En Proceso' : 'Finalizado',
                         style: TextStyle(
                           color: p.activo ? Colors.green : Colors.grey,
                           fontSize: 11,

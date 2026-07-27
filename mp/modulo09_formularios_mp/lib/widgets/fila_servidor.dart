@@ -25,7 +25,7 @@ class FilaServidor extends StatelessWidget {
             ? cs.primaryContainer
             : cs.surfaceContainerHighest,
         child: Icon(
-          Icons.dns,
+          Icons.church,
           color: tieneSsl ? cs.onPrimaryContainer : cs.onSurfaceVariant,
         ),
       ),

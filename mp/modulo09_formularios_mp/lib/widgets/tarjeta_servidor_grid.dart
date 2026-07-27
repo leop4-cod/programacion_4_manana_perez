@@ -28,7 +28,7 @@ class TarjetaServidorGrid extends StatelessWidget {
             // Fila superior: icono + favorito
             Row(children: [
               Icon(
-                Icons.dns,
+                Icons.church,
                 color: servidor.ssl ? cs.primary : cs.outline,
                 size: 18,
               ),

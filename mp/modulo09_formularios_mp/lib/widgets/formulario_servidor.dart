@@ -77,7 +77,7 @@ class _FormularioServidorState extends State<FormularioServidor> {
             decoration: const InputDecoration(
               labelText:  'Nombre del servidor',
               hintText:   'prod-web-01',
-              prefixIcon: Icon(Icons.dns),
+              prefixIcon: Icon(Icons.church),
               border:     OutlineInputBorder(),
             ),
             textInputAction: TextInputAction.next,
@@ -99,8 +99,8 @@ class _FormularioServidorState extends State<FormularioServidor> {
             focusNode:    _focusIp,
             decoration: const InputDecoration(
               labelText:  'Dirección IP',
-              hintText:   '192.168.1.100',
-              prefixIcon: Icon(Icons.router),
+              hintText:   'TR-402',
+              prefixIcon: Icon(Icons.directions_car),
               border:     OutlineInputBorder(),
             ),
             keyboardType:    TextInputType.number,
@@ -121,7 +121,7 @@ class _FormularioServidorState extends State<FormularioServidor> {
             controller:   _ctrlPuerto,
             focusNode:    _focusPuerto,
             decoration: const InputDecoration(
-              labelText:  'Puerto',
+              labelText:  'Sucursal',
               prefixIcon: Icon(Icons.lock_outline),
               border:     OutlineInputBorder(),
             ),
@@ -142,7 +142,7 @@ class _FormularioServidorState extends State<FormularioServidor> {
             controller:      _ctrlUsuario,
             focusNode:       _focusUsuario,
             decoration: const InputDecoration(
-              labelText:  'Usuario',
+              labelText:  'Familiar Responsable',
               prefixIcon: Icon(Icons.person_outline),
               border:     OutlineInputBorder(),
             ),
@@ -176,8 +176,8 @@ class _FormularioServidorState extends State<FormularioServidor> {
           DropdownButtonFormField<String>(
             value:      _so,
             decoration: const InputDecoration(
-              labelText:  'Sistema Operativo',
-              prefixIcon: Icon(Icons.computer),
+              labelText:  'Tipo de Servicio',
+              prefixIcon: Icon(Icons.directions_car),
               border:     OutlineInputBorder(),
             ),
             items: [

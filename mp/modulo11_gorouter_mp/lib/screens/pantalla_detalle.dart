@@ -32,9 +32,9 @@ class PantallaDetalle extends StatelessWidget {
                 children: [
                   _Fila('ID',       srv.id),
                   _Fila('Nombre',   srv.nombre),
-                  _Fila('IP',       srv.ip),
-                  _Fila('Puerto',   srv.puerto.toString()),
-                  _Fila('SSL',      srv.ssl ? 'Activo' : 'Inactivo'),
+                  _Fila('Matrícula/ID',       srv.ip),
+                  _Fila('Sucursal',   srv.puerto.toString()),
+                  _Fila('SSL',      srv.ssl ? 'En Proceso' : 'Finalizado'),
                   const SizedBox(height: 24),
                   Row(children: [
                     OutlinedButton.icon(

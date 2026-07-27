@@ -73,7 +73,7 @@ class _TarjetaMetrica extends StatelessWidget {
           children: [
             Row(
               children: [
-                Icon(Icons.dns, color: esCritico ? cs.error : cs.primary, size: 18),
+                Icon(Icons.church, color: esCritico ? cs.error : cs.primary, size: 18),
                 const SizedBox(width: 8),
                 Text(
                   metrica.servidor,
@@ -92,9 +92,9 @@ class _TarjetaMetrica extends StatelessWidget {
               style: TextStyle(fontSize: 12, color: cs.onSurfaceVariant),
             ),
             const SizedBox(height: 10),
-            _Barra('CPU', metrica.cpu, cpuCritica),
+            _Barra('Capacidad', metrica.cpu, cpuCritica),
             const SizedBox(height: 4),
-            _Barra('RAM', metrica.ram, ramCritica),
+            _Barra('Asistentes', metrica.ram, ramCritica),
             const SizedBox(height: 4),
             _Barra('SSD', metrica.ssd, ssdCritica),
           ],

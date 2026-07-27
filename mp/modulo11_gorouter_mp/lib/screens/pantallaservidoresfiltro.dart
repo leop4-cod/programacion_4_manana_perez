@@ -32,7 +32,7 @@ class PantallaServidoresFiltro extends StatelessWidget {
         itemBuilder: (context, i) {
           final s = filtrados[i];
           return ListTile(
-            leading: Icon(Icons.dns, color: s.ssl ? Colors.green : Colors.grey),
+            leading: Icon(Icons.church, color: s.ssl ? Colors.green : Colors.grey),
             title:   Text(s.nombre),
             subtitle: Text(s.ip),
             onTap: () => context.push(
