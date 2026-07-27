@@ -21,7 +21,7 @@ import 'package:modulo10_riverpod/screens/pantalla_servidores.dart';
 // │  4  Paso 4  AsyncNotifierProvider + métricas loading/error      │
 // │  5  Paso 5  NavigationBar con dos tabs usando Riverpod          │
 // └──────────────────────────────────────────────────────────────────┘
-const int paso = 5;
+const int paso = 1;
 
 // StateProvider — estado simple del Paso 1
 final contadorProvider = StateProvider<int>((ref) => 5);

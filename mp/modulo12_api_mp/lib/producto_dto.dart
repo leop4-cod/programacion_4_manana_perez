@@ -1,4 +1,4 @@
-import 'ataud.dart';
+import 'producto.dart';
 
 class ProductoDto {
   final int     id;

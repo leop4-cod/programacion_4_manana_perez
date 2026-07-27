@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:http/http.dart' as http;
 
-import 'ataud.dart';
+import 'producto.dart';
 import 'producto_dto.dart';
 
 class PantallaPaso3 extends StatelessWidget {
