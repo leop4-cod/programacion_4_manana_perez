@@ -1,7 +1,7 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod/legacy.dart';
+
 import 'package:modulo10_riverpod/screens/pantalla_busqueda.dart';
 import 'package:modulo10_riverpod/screens/pantalla_dashboard.dart';
 import 'package:modulo10_riverpod/screens/pantalla_metricas.dart';

@@ -1,7 +1,7 @@
 // lib/screens/pantalla_dashboard.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod/legacy.dart';
+
 import 'pantalla_servidores.dart';
 import 'pantalla_metricas.dart';
 
