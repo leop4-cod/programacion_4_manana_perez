@@ -31,7 +31,7 @@ class CatalogoBasicos extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: Text(
-              'api-gateway-produccion-region-us-east → sin respuesta',
+              'sistema-traslados-nacional-norte → sin respuesta',
               textAlign:
                   TextAlign.justify, // .left  .right  .justify  .start  .end
               maxLines: 2,
@@ -184,8 +184,8 @@ class CatalogoBasicos extends StatelessWidget {
                 backgroundColor: Colors.red.shade100,
                 child: const Icon(Icons.cancel, color: Colors.red, size: 20),
               ),
-              title: const Text('backup-worker'),
-              subtitle: const Text('sin respuesta · 10.0.0.30'),
+              title: const Text('carroza-fúnebre-04'),
+              subtitle: const Text('fuera de ruta · GPS inactivo'),
               trailing: TextButton(onPressed: () {}, child: const Text('Ver')),
             ),
           ),
@@ -204,26 +204,26 @@ class CatalogoBasicos extends StatelessWidget {
             spacing: 8,
             runSpacing: 8,
             children: [
-              const Chip(label: Text('nginx')),
-              const Chip(label: Text('Python')),
-              const Chip(label: Text('CSS')),
-              const Chip(label: Text('Kotlin')),
+              const Chip(label: Text('Servicio Base')),
+              const Chip(label: Text('Velación')),
+              const Chip(label: Text('Flores')),
+              const Chip(label: Text('Ataúd')),
               const Chip(
                 avatar: Icon(Icons.check, size: 16, color: Colors.white),
-                label: Text('TLS 1.3'),
+                label: Text('Certificado Defunción'),
                 backgroundColor: Colors.blue,
                 labelStyle: TextStyle(color: Colors.white, fontSize: 12),
               ),
               FilterChip(
                 onDeleted: () {},
                 deleteIcon: const Icon(Icons.close, size: 16),
-                label: const Text('HTTP/2'),
+                label: const Text('Acta Notariada'),
                 selected: false,
                 onSelected: (_) {},
                 padding: const EdgeInsets.all(8),
               ),
               ActionChip(
-                label: const Text('Ver logs'),
+                label: const Text('Ver registros'),
                 avatar: const Icon(Icons.open_in_new, size: 16),
                 onPressed: () {},
               ),
