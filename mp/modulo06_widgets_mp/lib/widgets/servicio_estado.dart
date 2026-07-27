@@ -54,7 +54,7 @@ class _ServicioEstadoState extends State<ServicioEstado> {
         children: [
 
           Icon(
-            _activo ? Icons.wifi : Icons.wifi_off,
+            _activo ? Icons.local_fire_department : Icons.fireplace,
             size:  72,
             color: _obtenerColorIcono(),
           ),
