@@ -90,7 +90,7 @@ class Saludo extends StatelessWidget {
   Widget build(BuildContext context) {
     // describe cómo se ve
     return const SelectableText(
-      'En Funeraria La Paz acompañamos a las familias en sus momentos más difíciles, brindando un servicio cálido y respetuoso.
+      'En Funeraria La Paz acompañamos a las familias en sus momentos más difíciles, brindando un servicio cálido y respetuoso.',
       style: TextStyle(
         fontSize: 32,
         fontWeight: FontWeight.bold,

@@ -171,7 +171,7 @@ class CatalogoBasicos extends StatelessWidget {
               contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
               leading: const Icon(Icons.dns, color: Colors.indigo),
               title: const Text('Horno Crematorio'),
-              subtitle: const Text('En Funeraria La Paz acompañamos a las familias en sus momentos más difíciles, brindando un servicio cálido y respetuoso.
+              subtitle: const Text('En Funeraria La Paz acompañamos a las familias en sus momentos más difíciles, brindando un servicio cálido y respetuoso.'),
               trailing: const Icon(Icons.circle, color: Colors.green, size: 12),
               isThreeLine: true,
               onTap: () {}, // toda la fila queda tocable
